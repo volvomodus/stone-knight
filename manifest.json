@@ -10,7 +10,7 @@
                 {
                   "name": "Default",
                   "group": "Knight",
-                  "tooltip": "Knight in her default outfit",
+                  "tooltip": "Knight in her default fit",
                   "type": "select",
                   "enabledByDefault": true,
                   "contentFolders": ["Default"]
@@ -40,4 +40,5 @@
                    "portFromChunk1": true}]       
                }
       ]
+
 }  
