@@ -5,6 +5,7 @@
     "authors": ["volvomodus"],
     "frameworkVersion": "2.33.22",
     "version": "1.0.0",
+    "updateCheck": "https://github.com/volvomodus/update-checks/blob/main/SN/updater.json"
     "options": [
                 {
                   "name": "Default",
@@ -39,4 +40,5 @@
                    "portFromChunk1": true}]       
                }
       ]
+
 }  
