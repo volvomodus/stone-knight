@@ -1,0 +1,42 @@
+{
+    "id": "knight.outfits",
+    "name": "Agent Knight",
+    "description": "New outfits for Knight",
+    "authors": ["volvomodus"],
+    "frameworkVersion": "2.33.22",
+    "version": "1.0.0",
+    "options": [
+                {
+                  "name": "Default",
+                  "group": "Knight",
+                  "tooltip": "Knight in her default outfit",
+                  "type": "select",
+                  "enabledByDefault": true,
+                  "contentFolders": ["Default"]
+               },{ 
+                  "name": "Beach",
+                  "group": "Knight",
+                  "tooltip": "Knight in bikini",
+                  "type": "select",
+                  "contentFolders": ["Beach"],
+                  "dependencies": [{
+                   "runtimeID": "00267FAAE51D7DDD",
+                   "portFromChunk1": true
+                },{
+                   "runtimeID": "00D9A97396FD1CF5",
+                   "portFromChunk1": true
+                },{
+                   "runtimeID": "009DDBEE6D287083",
+                   "portFromChunk1": true
+                },{
+                   "runtimeID": "00834F149688EFE4",
+                   "portFromChunk1": true
+                },{
+                   "runtimeID": "0090646801C231AB",
+                   "portFromChunk1": true
+                },{
+                   "runtimeID": "0001E899F43686EF",
+                   "portFromChunk1": true}]       
+               }
+      ]
+}  
